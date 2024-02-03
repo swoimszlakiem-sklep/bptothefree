@@ -1,0 +1,256 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "theme": {
+      "name": "resultm5",
+      "title": "ResultM5",
+      "styling": {
+        "primaryColor": "#f8f7ff",
+        "secondaryColor": "#550aa9",
+        "successColor": "#FFF6EB",
+        "infoColor": "#ffffff",
+        "warningColor": "#FFE4C1",
+        "dangerColor": "#570000",
+        "mainFont": "Kantumruy Pro",
+        "display1Font": "Kantumruy Pro",
+        "display1Size": 4.9,
+        "display2Font": "Kantumruy Pro",
+        "display2Size": 4,
+        "display5Font": "Kantumruy Pro",
+        "display5Size": 1.65,
+        "display7Font": "Kantumruy Pro",
+        "display7Size": 1.5,
+        "display4Font": "Kantumruy Pro",
+        "display4Size": 1.125,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      },
+      "titlePreset": "Affiliate Marketing",
+      "nameSelectPreset": "affiliate-marketing",
+      "presetSourceTheme": "resultm5",
+      "additionalSetColors": [
+        "#9ea2e4"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "name": "emoji 3D backpack-clone",
+    "versionFirst": "5.7.12",
+    "siteFonts": [
+      {
+        "css": "'Kantumruy Pro', sans-serif",
+        "name": "Kantumruy Pro",
+        "url": "https://fonts.googleapis.com/css?family=Kantumruy+Pro:100,200,300,400,500,600,700,100i,200i,300i,400i,500i,600i,700i"
+      }
+    ],
+    "imageResize": true,
+    "uniqCompNum": 3,
+    "versionPublish": "5.7.12",
+    "screenshot": "screenshot.png",
+    "mcSmartCart": {
+      "currency": "USD"
+    },
+    "usedWebp": true,
+    "cssOptimize": true,
+    "lazyLoad": true,
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#ffffff",
+      "colorButton": "#f8f7ff",
+      "rejectColor": "#ffffff",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacityOverlay": "1",
+      "text": "Używamy plików cookie, aby zapewnić najlepszą jakość usług zgodnie z postanowieniami <a href='https://swoimszlakiem-sklep.pl/help-center?docType=privacyandpolicy'>Polityki prywatności i cookies</a>.\n",
+      "textButton": "Akceptuj",
+      "rejectText": "REJECT"
+    },
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "W celu kontynuowania potwierdź nasz <a href='https://swoimszlakiem-sklep.pl/help-center?docType=regulation'>Regulamin sklepu</a> i <a href='https://swoimszlakiem-sklep.pl/help-center?docType=privacyandpolicy'>Politykę prywatności</a>."
+    },
+    "favicon": false,
+    "mbrsiteDomain": "9wxj2jlff6",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "pwa-switcher": false
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Emoji Backpack 3D | Nowoczesny styl - pojemny i wygodny",
+        "meta_descr": "Jakościowy produkt wykonany z tkaniny Oxford z mocnymi paskami i motywem buziek \"emoji\" na całej powierzchni plecaka.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "@media (min-width: 992px)": {
+              ".card": {
+                "padding": "0 80px",
+                "&:first-child": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "justify-content": "center"
+                }
+              }
+            },
+            ".title-wrapper": {
+              "margin": "0 0 53px 0",
+              "@media (max-width: 992px)": {
+                "margin": "20px 0 0 0"
+              },
+              ".mbr-section-title": {
+                "margin-bottom": "0"
+              }
+            },
+            ".panel-group": {
+              "@media (max-width: 992px)": {
+                "margin-bottom": "32px"
+              },
+              ".card": {
+                "padding": "16px 0 24px 0",
+                "border-radius": "0",
+                "&:not(:first-child)": {
+                  "border-top": "1px solid @border"
+                },
+                ".card-header": {
+                  "background-color": "transparent",
+                  "padding": "13px 0",
+                  "border": "none",
+                  "@media (max-width: 768px)": {
+                    "padding": "0 0 10px"
+                  },
+                  ".panel-title": {
+                    "display": "flex",
+                    "justify-content": "space-between",
+                    "align-items": "center",
+                    "&:not(.collapsed)": {
+                      ".mbr-iconfont": {
+                        "opacity": "0"
+                      }
+                    },
+                    ".panel-title-edit": {
+                      "margin": "0",
+                      "width": "100%"
+                    },
+                    ".mbr-iconfont": {
+                      "margin-left": "10px",
+                      "transition": "all .3s ease"
+                    }
+                  }
+                },
+                ".panel-collapse": {
+                  ".panel-body": {
+                    ".panel-text": {
+                      "margin": "0"
+                    }
+                  }
+                }
+              }
+            },
+            ".image-wrapper": {
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "position": "relative",
+              "height": "500px",
+              "@media (max-width: 425px)": {
+                "height": "400px"
+              },
+              ".image-main": {
+                "width": "230px",
+                "height": "380px",
+                "object-fit": "cover",
+                "border-radius": "20px"
+              },
+              ".mbr-emoji": {
+                "position": "absolute",
+                "top": "0",
+                "right": "9rem",
+                "font-size": "52px",
+                "&:nth-child(2)": {
+                  "left": "4rem",
+                  "top": "22%"
+                },
+                "&:nth-child(3)": {
+                  "font-size": "72px",
+                  "right": "3.5rem",
+                  "top": "40%"
+                },
+                "&:nth-child(4)": {
+                  "font-size": "102px",
+                  "top": "auto",
+                  "left": "7rem",
+                  "bottom": "1rem"
+                },
+                "&:nth-child(5)": {
+                  "font-size": "46px",
+                  "top": "auto",
+                  "bottom": "0",
+                  "left": "50%"
+                }
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#f8f7ff"
+            },
+            ".panel-title-edit, .mbr-iconfont": {
+              "color": "#f8f7ff"
+            },
+            ".panel-text": {
+              "color": "#f8f7ff"
+            }
+          },
+          "_name": "content1",
+          "_sourceTheme": "resultm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content1 resultm5\" group=\"List\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n        'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <select title=\"Item Amount\" name=\"cardAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Item Border\" value=\"#f8f7ff\" name=\"border\" selected>\n        <input type=\"checkbox\" title=\"Images\" name=\"showImages\" checked>\n        <input type=\"range\" inline title=\"Emoji Amount\" name=\"icons\" min=\"0\" max=\"5\" step=\"1\" value=\"5\" condition=\"showImages\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@THEME_PATH@/components/_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#550aa9\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@THEME_PATH@/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12 col-lg-6 card\">\n                <div class=\"image-wrapper\" mbr-if=\"showImages\">\n                    <img class=\"image-main\" src=\"@PROJECT_PATH@/assets/images/ona%20plecak-460x657.png\" alt=\"Mobirise Website Builder\">\n                    <p class=\"mbr-emoji mbr-fonts-style\" mbr-if=\"icons > 0\">🔅</p>\n                    <p class=\"mbr-emoji mbr-fonts-style\" mbr-if=\"icons > 1\">💜</p>\n                    <p class=\"mbr-emoji mbr-fonts-style\" mbr-if=\"icons > 2\">📒</p>\n                    <p class=\"mbr-emoji mbr-fonts-style\" mbr-if=\"icons > 3\">😁</p>\n                    <p class=\"mbr-emoji mbr-fonts-style\" mbr-if=\"icons > 4\">🔆</p>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-6 card\">\n                <div class=\"title-wrapper\">\n                    <h2 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                        FAQ&nbsp;</h2>\n                </div>\n                <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                    <div class=\"card\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                <h4 class=\"panel-title-edit mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".panel-title-edit, .mbr-iconfont\">\n                                    Czy plecak jest wytrzymały ?</h4>\n                                <span class=\"sign mbr-iconfont mobi-mbri-plus mobi-mbri\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse1\" class=\"panel-collapse noScroll collapse show\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">Plecak został wykonany z tkaniny Oxford, jest odporne na ścieranie i trwały w użyciu. Nadruku emoji nie blaknie podczas używania.<br>Pamiętaj u nas dostaniesz 100% orginalny produkt, pamiętaj w sieci funkcjonują już różne wersje tego plecaka o wątpliwej jakości wykonania.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"cardAmount > 1\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingTwo\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                <h4 class=\"panel-title-edit mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".panel-title-edit, .mbr-iconfont\">Ile plecak ma kieszeni ?</h4>\n                                <span class=\"sign mbr-iconfont mobi-mbri-plus mobi-mbri\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingTwo\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Plecak posiada jedna duża kieszeń zapinana na zamek oraz dodatkowa kieszeń przednią</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"cardAmount > 2\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                <h4 class=\"panel-title-edit mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".panel-title-edit, .mbr-iconfont\">Czy jest łatwy do czyszczenia ?<br></h4>\n                                <span class=\"sign mbr-iconfont mobi-mbri-plus mobi-mbri\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">Tak wystarczy przetrzeć mokrą szmatką, jest to łatwa w czyszczeniu tkanina Oxford.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"cardAmount > 3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingFour\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                <h4 class=\"panel-title-edit mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".panel-title-edit, .mbr-iconfont\">\n                                    Recusandae sed tenetur ullam?\n                                </h4>\n                                <span class=\"sign mbr-iconfont mobi-mbri-plus mobi-mbri\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingFour\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim esse,\n                                    exercitationem impedit maiores maxime optio soluta. Culpa dignissimos, doloremque\n                                    exercitationem fugiat id possimus similique veniam. Earum labore magnam qui.\n                                    architecto asperiores aut blanditiis distinctio dolor inventore magnam minus natus\n                                    nihil perferendis porro, quia, quisquam recusandae sed tenetur ullam veniam.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tqJTpWbwV0",
+          "_anchor": "content1-c",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
